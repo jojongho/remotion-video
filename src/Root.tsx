@@ -1,46 +1,29 @@
 import "./index.css";
 import { Composition } from "remotion";
-import { HelloWorld, myCompSchema } from "./HelloWorld";
-import { Logo, myCompSchema2 } from "./HelloWorld/Logo";
+import "./global.css";
+
+import { YouTubeLongform } from "./compositions/longform/YouTubeLongform";
+import { YouTubeShorts } from "./compositions/shorts/YouTubeShorts";
 
 // Each <Composition> is an entry in the sidebar!
-
 export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition
-        // You can take the "id" to render a video:
-        // npx remotion render HelloWorld
-        id="HelloWorld"
-        component={HelloWorld}
-        durationInFrames={150}
+        id="YouTubeLongform"
+        component={YouTubeLongform}
+        durationInFrames={30 * 60 * 10} // 10 minutes default
         fps={30}
         width={1920}
         height={1080}
-        // You can override these props for each render:
-        // https://www.remotion.dev/docs/parametrized-rendering
-        schema={myCompSchema}
-        defaultProps={{
-          titleText: "Welcome to Remotion",
-          titleColor: "#000000",
-          logoColor1: "#91EAE4",
-          logoColor2: "#86A8E7",
-        }}
       />
-
-      {/* Mount any React component to make it show up in the sidebar and work on it individually! */}
       <Composition
-        id="OnlyLogo"
-        component={Logo}
-        durationInFrames={150}
+        id="YouTubeShorts"
+        component={YouTubeShorts}
+        durationInFrames={30 * 60} // 60 seconds default
         fps={30}
-        width={1920}
-        height={1080}
-        schema={myCompSchema2}
-        defaultProps={{
-          logoColor1: "#91dAE2" as const,
-          logoColor2: "#86A8E7" as const,
-        }}
+        width={1080}
+        height={1920}
       />
     </>
   );
