@@ -4,6 +4,7 @@ import "./global.css";
 
 import { YouTubeLongform } from "./compositions/longform/YouTubeLongform";
 import { YouTubeShorts } from "./compositions/shorts/YouTubeShorts";
+import { HilstateVideo } from "./compositions/HilstateVideo";
 
 // Each <Composition> is an entry in the sidebar!
 export const RemotionRoot: React.FC = () => {
@@ -24,6 +25,15 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1080}
         height={1920}
+      />
+      {/* 힐스테이트 모종 블랑루체 — 시퀀스 13 (약 10분 58초) */}
+      <Composition
+        id="HilstateBlancLuche"
+        component={HilstateVideo}
+        durationInFrames={19742}
+        fps={30}
+        width={1920}
+        height={1080}
       />
     </>
   );

@@ -2,7 +2,6 @@ import { loadFont as loadBlackHanSans } from '@remotion/google-fonts/BlackHanSan
 import { loadFont as loadNotoSansKR } from '@remotion/google-fonts/NotoSansKR';
 import React from 'react';
 import {
-  AbsoluteFill,
   interpolate,
   spring,
   useCurrentFrame,
