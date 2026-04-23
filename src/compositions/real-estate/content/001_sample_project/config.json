@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "24년 3월 서울 청약 총정리",
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "theme": {
+    "primaryColor": "#0055FF",
+    "secondaryColor": "#FFFFFF",
+    "backgroundColor": "#111111",
+    "fontFamily": "system-ui, sans-serif"
+  },
+  "scenes": [
+    {
+      "id": "scene_01",
+      "durationInFrames": 120,
+      "type": "intro",
+      "media": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "text": {
+        "main": "이달의 핫 분양 리스트",
+        "sub": "24년 3월 수도권 핵심 단지 총정리"
+      }
+    },
+    {
+      "id": "scene_02",
+      "durationInFrames": 180,
+      "type": "info",
+      "media": {
+        "type": "color",
+        "value": "#1a1a1a"
+      },
+      "text": {
+        "main": "84타입 4억8천 ~",
+        "style": "highlight",
+        "segments": [
+          { "text": "84타입", "color": "#FFFFFF" },
+          { "text": "4억8천 ~", "color": "#FFFF00" }
+        ]
+      },
+      "infoBox": {
+        "title": "예상 분양가",
+        "value": "평당 3,500만원 선"
+      }
+    },
+    {
+      "id": "scene_03",
+      "durationInFrames": 120,
+      "type": "outro",
+      "media": {
+        "type": "color",
+        "value": "#0055FF"
+      },
+      "text": {
+        "main": "자세한 사항은 고정댓글 참조",
+        "sub": "구독과 좋아요 부탁드립니다!"
+      }
+    }
+  ]
+}

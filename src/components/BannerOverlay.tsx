@@ -1,5 +1,5 @@
 import React from 'react';
-import { AbsoluteFill, spring, useCurrentFrame, useVideoConfig, interpolate, Audio, staticFile } from 'remotion';
+import { AbsoluteFill, spring, useCurrentFrame, useVideoConfig, interpolate } from 'remotion';
 import { loadFont as loadNotoSansKR } from '@remotion/google-fonts/NotoSansKR';
 
 const { fontFamily: notoSans } = loadNotoSansKR();

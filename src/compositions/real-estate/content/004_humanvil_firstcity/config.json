@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "천안 휴먼빌 퍼스트시티 — 84D 타입 모델하우스 현장",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "version": "v1-tts-overlay",
+    "durationSeconds": 379
+  },
+  "theme": {
+    "primaryColor": "#1A56DB",
+    "accentColor": "#E02424",
+    "secondaryColor": "#FFFFFF",
+    "backgroundColor": "#0F172A",
+    "fontFamily": "Pretendard, system-ui, sans-serif",
+    "captionStyle": "boxed"
+  },
+  "audio": {
+    "narration": "audio/narration.mp3",
+    "subtitles": "subtitles/narration.srt"
+  },
+  "assets": {
+    "thumbnail1": "assets/IMG-20251228012840335.jpg",
+    "thumbnail2": "assets/IMG-20251228012854648.jpg"
+  },
+  "overlays": [
+    {
+      "id": "intro_badge",
+      "type": "badge-group",
+      "startFrame": 0,
+      "durationFrames": 180,
+      "badges": ["천안 휴먼빌 퍼스트시티", "84D 타입 현장"]
+    },
+    {
+      "id": "price_merit",
+      "type": "info-card",
+      "startFrame": 180,
+      "durationFrames": 300,
+      "title": "분양가",
+      "items": [
+        { "label": "84㎡ 시작가", "value": "4억대~", "highlight": true },
+        { "label": "계약금", "value": "500만원" },
+        { "label": "입주", "value": "2029년 5월" }
+      ]
+    },
+    {
+      "id": "floor_plan",
+      "type": "info-card",
+      "startFrame": 750,
+      "durationFrames": 300,
+      "title": "84D 타입 특징",
+      "items": [
+        { "label": "구조", "value": "포베이 맞통풍" },
+        { "label": "거실 폭", "value": "5.7m (광폭)" },
+        { "label": "알파룸", "value": "방 4개 전환 가능" },
+        { "label": "안방 발코니", "value": "정사각 휴식공간" }
+      ]
+    },
+    {
+      "id": "compare_price",
+      "type": "chart",
+      "startFrame": 2850,
+      "durationFrames": 300,
+      "chartType": "bar-compare",
+      "title": "성성지구 분양가 비교",
+      "data": [
+        { "label": "휴먼빌", "value": 4.7, "unit": "억", "highlight": true },
+        { "label": "업성 푸르지오", "value": 5.7, "unit": "억" }
+      ]
+    },
+    {
+      "id": "move_in",
+      "type": "info-card",
+      "startFrame": 3600,
+      "durationFrames": 300,
+      "title": "입주 타이밍",
+      "items": [
+        { "label": "성성지구 입주 피크", "value": "2028년 초반" },
+        { "label": "휴먼빌 입주", "value": "2029년 5월" },
+        { "label": "포인트", "value": "인프라 완성 후 입주" }
+      ]
+    },
+    {
+      "id": "contract_promo",
+      "type": "badge-group",
+      "startFrame": 9900,
+      "durationFrames": 300,
+      "badges": ["계약금 500만원", "100세대 한정 프로모션", "84D·84B 추천"]
+    },
+    {
+      "id": "outro_cta",
+      "type": "cta",
+      "startFrame": 10800,
+      "durationFrames": 600,
+      "phone": "1522-2445",
+      "text": "방문 상담 예약"
+    }
+  ]
+}

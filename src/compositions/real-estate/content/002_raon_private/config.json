@@ -1,0 +1,1528 @@
+{
+  "meta": {
+    "title": "Raon Private Captions Overlay",
+    "fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "theme": {
+    "primaryColor": "#0055FF",
+    "secondaryColor": "#FFFFFF",
+    "backgroundColor": "transparent",
+    "fontFamily": "system-ui, sans-serif"
+  },
+  "scenes": [
+    {
+      "id": "scene_001",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "소장님 혹시 소개 한번만 좀 부탁드리겠습니다.",
+        "style": "default",
+        "segments": [
+          {
+            "text": "소장님 혹시 소개 한번만 좀 부탁드리겠습니다.",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_002",
+      "durationInFrames": 330,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "아 안녕하세요, 저는 배방 우방 아이유쉘 단지 내에 위치한 그 부동산에서 소장을 하고 있는 조종호 대표라고 합니다.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "아 안녕하세요, 저는 배방 우방 아이유쉘 단지 내에 위치한 그 부동산에서 소장을 하고 있는 조종호 대표라고 합니다.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_003",
+      "durationInFrames": 600,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "오늘 소개해드릴 곳이 배방 라온프라이빗 아파트인데요, 요 근처에 제 사무실이 있고, 그리고 여기가 기존 최초 입주자 모집 공고 당시 분양가보다 지금 할인 분양을 굉장히 많이 하고 있거든요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "오늘 소개해드릴 곳이 배방 라온프라이빗 아파트인데요, 요 근처에 제 사무실이 있고, 그리고 여기가 기존 최초 입주자 모집 공고 당시 분양가보다 지금 할인 분양을 굉장히 많이 하고 있거든요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_004",
+      "durationInFrames": 120,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "9천만원이면 굉장히 많이 할인을 하는데요. 그럼 원래 원분양가가 얼마예요, 소장님?",
+        "style": "default",
+        "segments": [
+          {
+            "text": "9천만원이면 굉장히 많이 할인을 하는데요. 그럼 원래 원분양가가 얼마예요, 소장님?",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_005",
+      "durationInFrames": 210,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "원분양가는 지금... 여기는 원분양가가 한 4억 4천 9백, 그러니까 4억 5천 정도가 돼요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "원분양가는 지금... 여기는 원분양가가 한 4억 4천 9백, 그러니까 4억 5천 정도가 돼요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_006",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "아, 이 집 그럼 살 수 있는 거예요, 소장님?",
+        "style": "default",
+        "segments": [
+          {
+            "text": "아, 이 집 그럼 살 수 있는 거예요, 소장님?",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_007",
+      "durationInFrames": 30,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "어, 그럼요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "어, 그럼요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_008",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "아, 여기는 샘플하우스가 아니라 그냥 지금 살 수 있는 거네요?",
+        "style": "default",
+        "segments": [
+          {
+            "text": "아, 여기는 샘플하우스가 아니라 그냥 지금 살 수 있는 거네요?",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_009",
+      "durationInFrames": 600,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "바로 여기 지금 보시다시피 일반 모델하우스 가보면은 기존에 지어질 거 대비해서 이렇게 디피해 놓고 그런 모델하우스가 되는데 여기는 이미 지어진 곳에 현장에 나와서 이렇게 지금 공가인 세대를 촬영하고 있는 거라 이 집이 만약에 마음에 드신다 하면은 계약 시 바로 입주도 할 수 있습니다.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "바로 여기 지금 보시다시피 일반 모델하우스 가보면은 기존에 지어질 거 대비해서 이렇게 디피해 놓고 그런 모델하우스가 되는데 여기는 이미 지어진 곳에 현장에 나와서 이렇게 지금 공가인 세대를 촬영하고 있는 거라 이 집이 만약에 마음에 드신다 하면은 계약 시 바로 입주도 할 수 있습니다.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_010",
+      "durationInFrames": 300,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "어, 제가 얼핏 보니까 여기 굉장히 로얄층이거든요. 그리고 앞동 뻥뷰인데 이 집을 살 수 있다니까 좀 관심이 가네요. 소장님 그러면 여기 세대수가 혹시 어떻게 될까요?",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "어, 제가 얼핏 보니까 여기 굉장히 로얄층이거든요. 그리고 앞동 뻥뷰인데 이 집을 살 수 있다니까 좀 관심이 가네요. 소장님 그러면 여기 세대수가 혹시 어떻게 될까요?",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_011",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "세대수는 195세대로 작긴 합니다.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "세대수는 195세대로 작긴 합니다.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_012",
+      "durationInFrames": 30,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "좀 아쉽네요.",
+        "style": "default",
+        "segments": [
+          {
+            "text": "좀 아쉽네요.",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_013",
+      "durationInFrames": 390,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "그 점은 아쉽지만은 요 화이트톤하고 베이지톤으로 굉장히 요즘 세대에 맞는 깔끔한 평면, 그리고 할인 분양된다는 점, 그리고 요 뒤로 보시면은...",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "그 점은 아쉽지만은 요 화이트톤하고 베이지톤으로 굉장히 요즘 세대에 맞는 깔끔한 평면, 그리고 할인 분양된다는 점, 그리고 요 뒤로 보시면은...",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_014",
+      "durationInFrames": 15,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "주방창으로 요쪽이에요, 요쪽이거든요. 여기에 보면은...",
+        "style": "default",
+        "segments": [
+          {
+            "text": "주방창으로 요쪽이에요, 요쪽이거든요. 여기에 보면은...",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_015",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "설거지 뷰네요, 설거지 뷰.",
+        "style": "default",
+        "segments": [
+          {
+            "text": "설거지 뷰네요, 설거지 뷰.",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_016",
+      "durationInFrames": 390,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "어 설거지 뷰 쪽으로 보면은 여기 아산 세무서가 있어요. 아산 사업하는 분들은 잘 아시죠, 여기 사업자 등록하러 오시고. 요 뒤로 또 공수지구나 구수 그 모산수제비 아시죠, 유명한 전현무 왔다가 간...",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "어 설거지 뷰 쪽으로 보면은 여기 아산 세무서가 있어요. 아산 사업하는 분들은 잘 아시죠, 여기 사업자 등록하러 오시고. 요 뒤로 또 공수지구나 구수 그 모산수제비 아시죠, 유명한 전현무 왔다가 간...",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_017",
+      "durationInFrames": 330,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "그런 식당이며 뭐 웬만한 편의시설 있는 배방의 상권이 요 뒤로 있어서 그렇게 생활하기에도 불편함 없는 아파트거든요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "그런 식당이며 뭐 웬만한 편의시설 있는 배방의 상권이 요 뒤로 있어서 그렇게 생활하기에도 불편함 없는 아파트거든요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_018",
+      "durationInFrames": 420,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "그러게요, 얼핏 봤을 때 제가 판상형 구조고 집이 굉장히 새 집이기 때문에 일단 깔끔하고 첫 입주기 때문에 보시면은 마음에 들어하실 만한 요소가 많은데, 그럼 집 소개 한번 좀 부탁드리겠습니다.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "그러게요, 얼핏 봤을 때 제가 판상형 구조고 집이 굉장히 새 집이기 때문에 일단 깔끔하고 첫 입주기 때문에 보시면은 마음에 들어하실 만한 요소가 많은데, 그럼 집 소개 한번 좀 부탁드리겠습니다.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_019",
+      "durationInFrames": 30,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "한번 소개해드릴게요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "한번 소개해드릴게요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_020",
+      "durationInFrames": 60,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "여기가 지금 몇 동이죠, 소장님?",
+        "style": "default",
+        "segments": [
+          {
+            "text": "여기가 지금 몇 동이죠, 소장님?",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_021",
+      "durationInFrames": 210,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "여기가 103동이고요. 아하. 타입은 그냥 단일 평형으로 84로 타입이 여러 가지 있긴 해요. 그런데 여기...",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "여기가 103동이고요. 아하. 타입은 그냥 단일 평형으로 84로 타입이 여러 가지 있긴 해요. 그런데 여기...",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_022",
+      "durationInFrames": 150,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "아 똑같이 33평형인 거네요. 네네네. 구평입니다. 여기는 구평 단지.",
+        "style": "default",
+        "segments": [
+          {
+            "text": "아 똑같이 33평형인 거네요. 네네네. 구평입니다. 여기는 구평 단지.",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_023",
+      "durationInFrames": 210,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "구평의 우리 다들 좋아하시는 그 보편적인 A타입 판상형.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "구평의 우리 다들 좋아하시는 그 보편적인 A타입 판상형.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_024",
+      "durationInFrames": 120,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "완벽하게 보편적이네요. 네, 한번 소개 한번 해주시죠.",
+        "style": "default",
+        "segments": [
+          {
+            "text": "완벽하게 보편적이네요. 네, 한번 소개 한번 해주시죠.",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_025",
+      "durationInFrames": 300,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "신발장은 기본적인 펜트리. 저기 밖에 나가실 때 뭐 여기에 보통 캠핑 용품이나 그런 거 많이 놔두시더라고요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "신발장은 기본적인 펜트리. 저기 밖에 나가실 때 뭐 여기에 보통 캠핑 용품이나 그런 거 많이 놔두시더라고요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_026",
+      "durationInFrames": 240,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "기본적으로 그렇게 크진 않지만은 기본적인 펜트리 하나 있어요. 그런데 다른 펜트리가 워낙 커서 나중에 한번 보시면 될 거 같아요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "기본적으로 그렇게 크진 않지만은 기본적인 펜트리 하나 있어요. 그런데 다른 펜트리가 워낙 커서 나중에 한번 보시면 될 거 같아요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_027",
+      "durationInFrames": 60,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "신발장이야 뭐 똑같겠죠?",
+        "style": "default",
+        "segments": [
+          {
+            "text": "신발장이야 뭐 똑같겠죠?",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_028",
+      "durationInFrames": 360,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "그리고 여기는 공용 욕실이에요. 보시면은 제품은 어 아메리칸 스탠다드. 그래도 일반적인 뭐 코끼리표 그런 것보단 고급스럽다고 치는 아메리칸 스탠다드로 들어가 있어요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "그리고 여기는 공용 욕실이에요. 보시면은 제품은 어 아메리칸 스탠다드. 그래도 일반적인 뭐 코끼리표 그런 것보단 고급스럽다고 치는 아메리칸 스탠다드로 들어가 있어요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_029",
+      "durationInFrames": 120,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "네, 자재가 그래도 나쁘지 않아 보여요.",
+        "style": "default",
+        "segments": [
+          {
+            "text": "네, 자재가 그래도 나쁘지 않아 보여요.",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_030",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "이런 거 보면은 요즘에 그 손끼임 방지라든가...",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "이런 거 보면은 요즘에 그 손끼임 방지라든가...",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_031",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "맞아요, 신축 아파트에는 요거 있어야 되겠죠. 신축입니다.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "맞아요, 신축 아파트에는 요거 있어야 되겠죠. 신축입니다.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_032",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "기본으로 돼 있다는 점이 참 마음에 드네요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "기본으로 돼 있다는 점이 참 마음에 드네요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_033",
+      "durationInFrames": 150,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "여기 작은 방. 서브룸 2라고 보시면 되는데, 원 2...",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "여기 작은 방. 서브룸 2라고 보시면 되는데, 원 2...",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_034",
+      "durationInFrames": 360,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "샷시도 다 이제 KCC 제품으로 돼 있고요. 여기 고층이잖아요. 밑에는 그 뭐라고 하죠 요즘에 유리 난간?",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "샷시도 다 이제 KCC 제품으로 돼 있고요. 여기 고층이잖아요. 밑에는 그 뭐라고 하죠 요즘에 유리 난간?",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_035",
+      "durationInFrames": 270,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "밑에는 안 열리는... 아하, 그러네요. 개방감과 안전을 다 해주는 유리 난간. 그렇죠. 유리 난간 있으면 집이 좀 넓어 보여요. 그죠?",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "밑에는 안 열리는... 아하, 그러네요. 개방감과 안전을 다 해주는 유리 난간. 그렇죠. 유리 난간 있으면 집이 좀 넓어 보여요. 그죠?",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_036",
+      "durationInFrames": 480,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "어, 그렇죠, 그 개방감이나 그런 게 확실히 뛰어나고 요즘에 또 유리 난간 선호하는 이유가 이 보기에는 이렇게 되게 무서워 보이는데, 이 철제 난간으로 돼 있으면은 애들을 또 거기는 또 쏙쏙 들어가서 위험하더라고요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "어, 그렇죠, 그 개방감이나 그런 게 확실히 뛰어나고 요즘에 또 유리 난간 선호하는 이유가 이 보기에는 이렇게 되게 무서워 보이는데, 이 철제 난간으로 돼 있으면은 애들을 또 거기는 또 쏙쏙 들어가서 위험하더라고요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_037",
+      "durationInFrames": 60,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "제가 듣기로는 그렇습니다.",
+        "style": "default",
+        "segments": [
+          {
+            "text": "제가 듣기로는 그렇습니다.",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_038",
+      "durationInFrames": 150,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "저 유리가 유리라고 생각하시면 안 되고 굉장히 튼튼한 유리죠?",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "저 유리가 유리라고 생각하시면 안 되고 굉장히 튼튼한 유리죠?",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_039",
+      "durationInFrames": 1380,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "아 그렇죠, 그렇죠. 강화 유리.",
+        "style": "default",
+        "segments": [
+          {
+            "text": "아 그렇죠, 그렇죠. 강화 유리.",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_040",
+      "durationInFrames": 15,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "맞아요.",
+        "style": "default",
+        "segments": [
+          {
+            "text": "맞아요.",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_041",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "어, 진짜 이게 진정한 펜트리라고 할 수 있죠. 네.",
+        "style": "default",
+        "segments": [
+          {
+            "text": "어, 진짜 이게 진정한 펜트리라고 할 수 있죠. 네.",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_042",
+      "durationInFrames": 150,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "이런 시스템 선반 이런 거 다 되어 있으니까 좋네요. 요즘 아파트 다 옵션이잖아요, 이런 거.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "이런 시스템 선반 이런 거 다 되어 있으니까 좋네요. 요즘 아파트 다 옵션이잖아요, 이런 거.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_043",
+      "durationInFrames": 180,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "여기 서브룸 2. 여기는 뭐 방이 약간 작네요, 저 방보다 살짝?",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "여기 서브룸 2. 여기는 뭐 방이 약간 작네요, 저 방보다 살짝?",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_044",
+      "durationInFrames": 180,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "자녀들 방으로 쓸 거 같아요.",
+        "style": "default",
+        "segments": [
+          {
+            "text": "자녀들 방으로 쓸 거 같아요.",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_045",
+      "durationInFrames": 210,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "어, 거의 다 비슷하긴 한데... 어. 거리감이... 제가 여자잖아요? 어, 저 서브룸 원 2 하면은 거의 비슷하다고 보시면 되는데 조금 작으면은 여기가 둘째 방이라고 보시면 되겠죠.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "어, 거의 다 비슷하긴 한데... 어. 거리감이... 제가 여자잖아요? 어, 저 서브룸 원 2 하면은 거의 비슷하다고 보시면 되는데 조금 작으면은 여기가 둘째 방이라고 보시면 되겠죠.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_046",
+      "durationInFrames": 270,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "네. 첫째는 조금 더 크고... 부모님 잔소리 듣기 싫어하는 첫째가 끝 방으로...",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "네. 첫째는 조금 더 크고... 부모님 잔소리 듣기 싫어하는 첫째가 끝 방으로...",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_047",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "여기도 뭐 똑같이 유리 난간으로 되어 있고.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "여기도 뭐 똑같이 유리 난간으로 되어 있고.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_048",
+      "durationInFrames": 180,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "네. 그래도 라온이 그 분양하면서 구조가 다 요즘 아파트 하는 걸 다 해줬네요. 참.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "네. 그래도 라온이 그 분양하면서 구조가 다 요즘 아파트 하는 걸 다 해줬네요. 참.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_049",
+      "durationInFrames": 540,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "거실인데요. 네. 보시면 이쪽이 아트월, 아트월 쪽. 그레이 톤으로 되어 있고 전체적으로 몰딩이나 벽지 전체적으로 베이지나 그레이 톤으로 요즘 분들이 좋아하는 그런 스타일이죠. 그냥 깔끔하고 심플한 스타일.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "거실인데요. 네. 보시면 이쪽이 아트월, 아트월 쪽. 그레이 톤으로 되어 있고 전체적으로 몰딩이나 벽지 전체적으로 베이지나 그레이 톤으로 요즘 분들이 좋아하는 그런 스타일이죠. 그냥 깔끔하고 심플한 스타일.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_050",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "영상이 뷰를 다 못 담는데 뻥뷰입니다.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "영상이 뷰를 다 못 담는데 뻥뷰입니다.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_051",
+      "durationInFrames": 240,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "그렇죠. 여기... 시원하게 뚫려 있고 요 앞애가 배방산 조망이라 가지고...",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "그렇죠. 여기... 시원하게 뚫려 있고 요 앞애가 배방산 조망이라 가지고...",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_052",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "저쪽이 배방산인가요? 산 좋아하시는 분들 좋겠다.",
+        "style": "default",
+        "segments": [
+          {
+            "text": "저쪽이 배방산인가요? 산 좋아하시는 분들 좋겠다.",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_053",
+      "durationInFrames": 210,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "네, 기본적으로 어 너무 심심하지 않은 뷰죠. 끝에는 산이 있어서 그래도 안정감 있게...",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "네, 기본적으로 어 너무 심심하지 않은 뷰죠. 끝에는 산이 있어서 그래도 안정감 있게...",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_054",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "보니까 앞뒤로 다 트여 있어요. 그죠?",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "보니까 앞뒤로 다 트여 있어요. 그죠?",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_055",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "어, 그렇죠, 그렇죠. 앞뒤로 다 트여 있는 뷰가 인상적입니다.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "어, 그렇죠, 그렇죠. 앞뒤로 다 트여 있는 뷰가 인상적입니다.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_056",
+      "durationInFrames": 330,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "보통 이제 타입을 나누는 이유가 주방 구조라든가 조금씩 나누는 편인데 A타입은 이렇게 큰 아일랜드가 있어요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "보통 이제 타입을 나누는 이유가 주방 구조라든가 조금씩 나누는 편인데 A타입은 이렇게 큰 아일랜드가 있어요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_057",
+      "durationInFrames": 30,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "스톤 상판이라고 하나요?",
+        "style": "default",
+        "segments": [
+          {
+            "text": "스톤 상판이라고 하나요?",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_058",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "그러게요, 스톤도 되어 있고 기본으로.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "그러게요, 스톤도 되어 있고 기본으로.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_059",
+      "durationInFrames": 240,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "네. 요게 또 주방에서는 이 또 흰 것보다는 좀 어두운 톤으로 하는 게 요리하면서 흘려도 표시가 안 나다 보니까 이런 걸 더 좋아하시는 분들...",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "네. 요게 또 주방에서는 이 또 흰 것보다는 좀 어두운 톤으로 하는 게 요리하면서 흘려도 표시가 안 나다 보니까 이런 걸 더 좋아하시는 분들...",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_060",
+      "durationInFrames": 30,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "김치 국물 같은 것도...",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "김치 국물 같은 것도...",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_061",
+      "durationInFrames": 1440,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "그렇죠, 그렇죠.",
+        "style": "default",
+        "segments": [
+          {
+            "text": "그렇죠, 그렇죠.",
+            "color": "#00FF00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_062",
+      "durationInFrames": 1020,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "그리고 아, 요거 또 등, 이 식탁 등이라고 하죠. 요것도 굉장히 좀 세련된 편이에요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "그리고 아, 요거 또 등, 이 식탁 등이라고 하죠. 요것도 굉장히 좀 세련된 편이에요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_063",
+      "durationInFrames": 540,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "그러게요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "그러게요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_064",
+      "durationInFrames": 15,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "음. 그리고 어, 일단 여기 또 냉장고 두 대 들어가는 크기고요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "음. 그리고 어, 일단 여기 또 냉장고 두 대 들어가는 크기고요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_065",
+      "durationInFrames": 15,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "여기 주방 수납... 주방 수납 들어가 있고.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "여기 주방 수납... 주방 수납 들어가 있고.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_066",
+      "durationInFrames": 15,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "그리고 여기 좋다. 사각 싱크볼.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "그리고 여기 좋다. 사각 싱크볼.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_067",
+      "durationInFrames": 1740,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "설거지할 맛 나겠네요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "설거지할 맛 나겠네요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_068",
+      "durationInFrames": 330,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "배방역 보이나요, 여기서?",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "배방역 보이나요, 여기서?",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_069",
+      "durationInFrames": 390,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "안방 가보겠습니다.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "안방 가보겠습니다.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_070",
+      "durationInFrames": 15,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "그러게요, 여기는 거실... 오, 드레스룸 좋다.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "그러게요, 여기는 거실... 오, 드레스룸 좋다.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_071",
+      "durationInFrames": 210,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "네, 드레스룸에 파우더룸이라고 해서 또 따로 있는데 여기는 그냥 드레스룸에 일체형으로 되어 있고.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "네, 드레스룸에 파우더룸이라고 해서 또 따로 있는데 여기는 그냥 드레스룸에 일체형으로 되어 있고.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_072",
+      "durationInFrames": 15,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "조금 요건 호불호가 있긴 하겠네요, 그죠?",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "조금 요건 호불호가 있긴 하겠네요, 그죠?",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_073",
+      "durationInFrames": 15,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "예, 호불호가 있는 이유가 이 화장실이 드레스룸하고 일체형이라 또 이게 습기 있다고 안 좋아하는 분들이 있는데, 근데 또 요렇게 창이 없는 드레스룸이면은 그게 좀 신경 쓰일 수도 있는데, 오히려 또 바쁠 때는 이 부부 생활 하면서도 바로바로 이제 여기서 그냥 씻고 준비하고 그게 편할 수도 있거든요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "예, 호불호가 있는 이유가 이 화장실이 드레스룸하고 일체형이라 또 이게 습기 있다고 안 좋아하는 분들이 있는데, 근데 또 요렇게 창이 없는 드레스룸이면은 그게 좀 신경 쓰일 수도 있는데, 오히려 또 바쁠 때는 이 부부 생활 하면서도 바로바로 이제 여기서 그냥 씻고 준비하고 그게 편할 수도 있거든요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_074",
+      "durationInFrames": 60,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "그러게요, 사실 화장품을 많이 안 쓰는 분들은 괜찮아요, 저처럼.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "그러게요, 사실 화장품을 많이 안 쓰는 분들은 괜찮아요, 저처럼.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_075",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "아.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "아.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_076",
+      "durationInFrames": 120,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "호불호 가지고 있을 거 같습니다.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "호불호 가지고 있을 거 같습니다.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_077",
+      "durationInFrames": 210,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "에어컨은 요렇게 배관이 보니까 되어 있어서 투인원 하셔도 되고, 투인원 기본으로 하셔도. 매립이니까 시스템 하셔도 되고.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "에어컨은 요렇게 배관이 보니까 되어 있어서 투인원 하셔도 되고, 투인원 기본으로 하셔도. 매립이니까 시스템 하셔도 되고.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_078",
+      "durationInFrames": 60,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "어, 맞습니다.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "어, 맞습니다.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_079",
+      "durationInFrames": 330,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "이렇게 하시면 되고. 주방 우물 천장이 무상이네요, 또 보니까. 이런 것들도 요즘 아파트는 다 옵션인데, 기본 우물 천장 되어 있습니다.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "이렇게 하시면 되고. 주방 우물 천장이 무상이네요, 또 보니까. 이런 것들도 요즘 아파트는 다 옵션인데, 기본 우물 천장 되어 있습니다.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_080",
+      "durationInFrames": 180,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "에어컨은 또 투인원 뺐듯이 여기 투인원 뺄 수 있게 스탠드 하거나 이쪽... 시탁 이쪽 하겠죠.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "에어컨은 또 투인원 뺐듯이 여기 투인원 뺄 수 있게 스탠드 하거나 이쪽... 시탁 이쪽 하겠죠.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_081",
+      "durationInFrames": 120,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "소장님, 여기 현지에서 중개업 하고 계시니까 인근 아파트 시세 대비해서 어떤가요?",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "소장님, 여기 현지에서 중개업 하고 계시니까 인근 아파트 시세 대비해서 어떤가요?",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_082",
+      "durationInFrames": 480,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "지금 한성 요 앞에 6차 보이거든요. 요게 이제 준공 한 6년차 되는 거 같아요. 지금 외관 칠도 다시 하려고 준비 중인데, 여기가 지금 실 시세가 3억 5천 정도 돼요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "지금 한성 요 앞에 6차 보이거든요. 요게 이제 준공 한 6년차 되는 거 같아요. 지금 외관 칠도 다시 하려고 준비 중인데, 여기가 지금 실 시세가 3억 5천 정도 돼요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_083",
+      "durationInFrames": 90,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "어 별 차이가 없네요, 거의 똑같네요.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "어 별 차이가 없네요, 거의 똑같네요.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene_084",
+      "durationInFrames": 150,
+      "type": "info",
+      "media": {
+        "type": "transparent"
+      },
+      "text": {
+        "main": "어, 그렇죠, 지금 여기 신축인 이 아파트하고 별 차이가 없죠. 가격적으로나 지금 평면도 굉장히 깔끔하고 예뻐서 굉장히 메리트가 될 수 있는 그런 아파트입니다.",
+        "style": "highlight",
+        "segments": [
+          {
+            "text": "어, 그렇죠, 지금 여기 신축인 이 아파트하고 별 차이가 없죠. 가격적으로나 지금 평면도 굉장히 깔끔하고 예뻐서 굉장히 메리트가 될 수 있는 그런 아파트입니다.",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    }
+  ]
+}
