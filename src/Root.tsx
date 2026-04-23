@@ -6,6 +6,7 @@ import { YouTubeLongform } from "./compositions/longform/YouTubeLongform";
 import { YouTubeShorts } from "./compositions/shorts/YouTubeShorts";
 import { HilstateVideo } from "./compositions/HilstateVideo";
 import { PropertyVideo } from "./compositions/PropertyVideo";
+import { Heumanville } from "./Heumanville";
 
 // Each <Composition> is an entry in the sidebar!
 export const RemotionRoot: React.FC = () => {
@@ -15,6 +16,14 @@ export const RemotionRoot: React.FC = () => {
         id="PropertyVideo"
         component={PropertyVideo}
         durationInFrames={30 * 60 * 15} // 15 minutes max
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="HeumanvilleFirstCity"
+        component={Heumanville}
+        durationInFrames={374 * 30}
         fps={30}
         width={1920}
         height={1080}

@@ -73,7 +73,7 @@ export const YouTubeEmphasisSubtitle: React.FC<{
 };
 
 // ------------------------------------------------------------------
-// 2. Space Entry Subtitle - "공용욕실 / 건식 세면대 분리형"
+// 2. Space Entry Subtitle - "공용욕실 / 건식 세면대 분 리형"
 // ------------------------------------------------------------------
 export const SpaceEntrySubtitle: React.FC<{
   title: string;
@@ -125,12 +125,13 @@ export const SpaceEntrySubtitle: React.FC<{
 // 3. Sliding Info Panel - "핵심 포인트 ① / 거실 양창"
 // ------------------------------------------------------------------
 export const SlidingInfoPanel: React.FC<{
-  brandName: string;
+  brandName?: string;
   pointNumber: number;
   mainTitle: string;
   description: string;
   direction?: 'left' | 'right';
-}> = ({ brandName, pointNumber, mainTitle, description, direction = 'left' }) => {
+  logoPath?: string;
+}> = ({ brandName, pointNumber, mainTitle, description, direction = 'left', logoPath }) => {
   const frame = useCurrentFrame();
   const { fps, width } = useVideoConfig();
   const isLeft = direction === 'left';
@@ -166,29 +167,33 @@ export const SlidingInfoPanel: React.FC<{
         fontFamily: notoSans,
       }}
     >
-      <div style={{ display: 'flex', alignItems: 'center', marginBottom: 20 }}>
-        <div style={{ backgroundColor: '#FF6B00', padding: '5px 15px', borderRadius: 4, fontWeight: 700, fontSize: 24, marginRight: 10 }}>
-          아산탕정
+      <div style={{ display: 'flex', flexDirection: 'column', marginBottom: 20 }}>
+        <div style={{ display: 'flex', alignItems: 'center', marginBottom: 15 }}>
+          <div style={{ backgroundColor: '#FF6B00', padding: '5px 15px', borderRadius: 4, fontWeight: 700, fontSize: 28, marginRight: 10 }}>
+            천안성성지구
+          </div>
         </div>
-        <div style={{ fontSize: 24, fontWeight: 500 }}>{brandName}</div>
+        {logoPath && (
+           <img src={logoPath} alt="Logo" style={{ height: 50, objectFit: 'contain', alignSelf: 'flex-start' }} />
+        )}
       </div>
 
-      <div style={{ fontSize: 55, fontWeight: 800, marginBottom: 30, display: 'flex', alignItems: 'center' }}>
+      <div style={{ fontSize: 60, fontWeight: 800, marginBottom: 30, display: 'flex', alignItems: 'center' }}>
         핵심 포인트 
         <span style={{ 
           display: 'inline-flex', justifyContent: 'center', alignItems: 'center',
-          width: 50, height: 50, borderRadius: '50%', border: '3px solid white', 
-          marginLeft: 15, fontSize: 35 
+          width: 55, height: 55, borderRadius: '50%', border: '3px solid white', 
+          marginLeft: 15, fontSize: 40 
         }}>
           {pointNumber}
         </span>
       </div>
 
-      <div style={{ fontSize: 80, fontWeight: 900, color: '#FFF500', marginBottom: 40, fontFamily: blackHanSans }}>
+      <div style={{ fontSize: 90, fontWeight: 800, color: '#FFF500', marginBottom: 40, fontFamily: blackHanSans }}>
         {mainTitle}
       </div>
 
-      <div style={{ fontSize: 36, fontWeight: 400, lineHeight: 1.4, color: '#E5E7EB' }}>
+      <div style={{ fontSize: 42, fontWeight: 400, lineHeight: 1.4, color: '#E5E7EB' }}>
         {description.split('\n').map((line, i) => (
           <React.Fragment key={i}>
             {line}
