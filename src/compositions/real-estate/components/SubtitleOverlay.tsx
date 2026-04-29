@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  AbsoluteFill,
-  interpolate,
-  useCurrentFrame,
-} from "remotion";
+import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
 
 export interface SubtitleCue {
   startFrame: number;
@@ -19,7 +15,7 @@ export const SubtitleOverlay: React.FC<SubtitleOverlayProps> = ({ cues }) => {
   const frame = useCurrentFrame();
 
   const activeCue = cues.find(
-    (c) => frame >= c.startFrame && frame <= c.endFrame
+    (c) => frame >= c.startFrame && frame <= c.endFrame,
   );
 
   if (!activeCue) return null;
@@ -28,7 +24,7 @@ export const SubtitleOverlay: React.FC<SubtitleOverlayProps> = ({ cues }) => {
     frame,
     [activeCue.startFrame, activeCue.startFrame + 3],
     [0, 1],
-    { extrapolateRight: "clamp" }
+    { extrapolateRight: "clamp" },
   );
 
   return (

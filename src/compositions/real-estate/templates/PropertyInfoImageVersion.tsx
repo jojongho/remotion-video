@@ -17,12 +17,7 @@
  */
 
 import React from "react";
-import {
-  useCurrentFrame,
-  useVideoConfig,
-  interpolate,
-  Img,
-} from "remotion";
+import { useCurrentFrame, useVideoConfig, interpolate, Img } from "remotion";
 import { TOKENS } from "../styles/presets";
 
 // ============================================================
@@ -146,10 +141,7 @@ export const PropertyInfoImageVersion: React.FC<
               </span>
             )}
             {logoSrc && (
-              <Img
-                src={logoSrc}
-                style={{ height: 40, objectFit: "contain" }}
-              />
+              <Img src={logoSrc} style={{ height: 40, objectFit: "contain" }} />
             )}
           </div>
         )}
@@ -223,13 +215,13 @@ export const PropertyInfoImageVersion: React.FC<
               frame,
               [itemDelay, itemDelay + 0.4 * fps],
               [0, 1],
-              { extrapolateRight: "clamp", extrapolateLeft: "clamp" }
+              { extrapolateRight: "clamp", extrapolateLeft: "clamp" },
             );
             const itemTranslateY = interpolate(
               frame,
               [itemDelay, itemDelay + 0.4 * fps],
               [20, 0],
-              { extrapolateRight: "clamp", extrapolateLeft: "clamp" }
+              { extrapolateRight: "clamp", extrapolateLeft: "clamp" },
             );
 
             return (
@@ -239,9 +231,7 @@ export const PropertyInfoImageVersion: React.FC<
                   opacity: itemOpacity,
                   transform: `translateY(${itemTranslateY}px)`,
                   borderBottom:
-                    index < items.length - 1
-                      ? "1px solid #E8E8E8"
-                      : "none",
+                    index < items.length - 1 ? "1px solid #E8E8E8" : "none",
                   padding: "20px 0",
                 }}
               >
