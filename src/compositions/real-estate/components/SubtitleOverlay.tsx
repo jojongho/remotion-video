@@ -32,7 +32,7 @@ export const SubtitleOverlay: React.FC<SubtitleOverlayProps> = ({ cues }) => {
       style={{
         justifyContent: "flex-end",
         alignItems: "center",
-        paddingBottom: 60,
+        paddingBottom: 48,
       }}
     >
       <div

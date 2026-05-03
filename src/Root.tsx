@@ -16,6 +16,9 @@ import { HumanvilleOverlay } from "./compositions/overlay/HumanvilleOverlay";
 import { HumanvilleChromakey } from "./compositions/overlay/HumanvilleChromakey";
 import { humanvilleData } from "./compositions/overlay/data/humanville";
 
+// ── 청약통장 TTS 영상 ─────────────────────────
+import { CheongakTTSVideo } from "./compositions/real-estate/CheongakTTSVideo";
+
 // ── 부동산 현장 영상 (구 remotion-real-estate) ─
 import { AreaExplainer } from "./compositions/real-estate/AreaExplainer";
 import { AreaExplainerFace } from "./compositions/real-estate/AreaExplainerFace";
@@ -48,6 +51,16 @@ const SAMPLE_PROPERTY_INFO = {
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      {/* ───────── 청약통장 TTS 영상 ───────── */}
+      <Composition
+        id="CheongakTTSVideo"
+        component={CheongakTTSVideo}
+        durationInFrames={13500}  // 7분 30초 (450초 × 30fps)
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* ───────── 기존 유튜브 장편/Shorts ───────── */}
       <Composition
         id="YouTubeLongform"
