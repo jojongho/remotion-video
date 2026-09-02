@@ -93,7 +93,7 @@ export const SpaceEntrySubtitle: React.FC<{
     <div
       style={{
         position: 'absolute',
-        bottom: '10%',
+        top: '20%',
         left: '8%',
         fontFamily: notoSans,
         opacity,

@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState, useMemo } from 'react';
 import {
   AbsoluteFill,
   Sequence,
-  Video,
+  OffthreadVideo,
   staticFile,
   useVideoConfig,
   interpolate,
@@ -177,7 +177,7 @@ export const PropertyVideo: React.FC = () => {
   ];
 
   const spaces = [
-    { start: 1 * 60 + 15, duration: 2 * 60, title: '외부 및 정원', subtitle: '단독 정원과 야외 테라스' },
+    { start: 1 * 60 + 15, duration: 1 * 60 + 15, title: '외부 및 정원', subtitle: '단독 정원과 야외 테라스' },
     { start: 2 * 60 + 30, duration: 2 * 60 + 30, title: '1층 생활 공간', subtitle: '거실, 주방, 게스트룸' },
     { start: 5 * 60, duration: 1 * 60 + 30, title: '2층 주거 공간', subtitle: '가족실, 안방, 드레스룸' },
     { start: 6 * 60 + 30, duration: 1 * 60 + 30, title: '3층 다락 및 테라스', subtitle: '다락방과 넓은 야외 공간' },
@@ -196,7 +196,7 @@ export const PropertyVideo: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: 'black' }}>
-      <Video
+      <OffthreadVideo
         src={staticFile('video_dir/20260406_133149.mp4')}
         // eslint-disable-next-line @remotion/no-object-fit-on-media-video
         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
@@ -215,7 +215,7 @@ export const PropertyVideo: React.FC = () => {
       ))}
 
       {/* SRT Captions */}
-      <CaptionPlayer captions={captions} />
+      {/* <CaptionPlayer captions={captions} /> */}
 
       {/* Outro Summary Overlay (8:00 to end) */}
       <Sequence from={8 * 60 * fps}>
@@ -237,7 +237,7 @@ export const PropertyVideo: React.FC = () => {
           borderRadius: '8px',
         }}
       >
-        음봉면 신정리 150-4 단독주택
+        음봉면 단독주택
       </div>
     </AbsoluteFill>
   );
